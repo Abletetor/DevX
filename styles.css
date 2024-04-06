@@ -782,6 +782,11 @@ details[open] .faq-answer {
             display: block;
       }
 
+      body {
+            width: 100%;
+            overflow-x: hidden;
+      }
+
       header .navbar {
             position: absolute;
             top: 100%;
