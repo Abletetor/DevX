@@ -401,7 +401,7 @@ section {
       display: flex;
       flex-wrap: wrap;
       gap: 2.5rem;
-      background-color: #eee;
+      background-color: #F7F0FF;
       padding: 5rem auto;
 }
 
@@ -661,7 +661,7 @@ section {
 
 /* FAQs styles starts here  */
 .faq {
-      background: #eee;
+      background: #F7F0FF;
 }
 
 .faq .heading {
