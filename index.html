@@ -9,8 +9,16 @@
       <!-- css link -->
       <link rel="stylesheet" href="styles.css">
 
-      <!-- font link -->
-      <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+      <!-- font links -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+            rel="stylesheet">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+            rel="stylesheet">
 
       <!-- icons link  -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -23,7 +31,7 @@
       <header>
             <input type="checkbox" name="" id="toggler">
             <label for="toggler" class="fas fa-bars"></label>
-            <a href="#" class="logo">DevX</a>
+            <a href="#" class="logo">DEVX</a>
 
             <nav class="navbar">
                   <a href="#home" class="active">Home</a>
@@ -48,14 +56,16 @@
             <section id="home" class="home">
 
                   <div class="content">
-                        <h2>welcome to DevX</h2>
-                        <h3>Defining your future</h3>
-                        <h3>starts growing your skills</h3>
-                        <p>
-                              a platform that connects talented developers with eager employers seeking top-tier
-                              expertise. Start your journey with us and unlock endless opportunities to grow, learn, and
-                              thrive in the tech industry.
-                        </p>
+                        <a class="highlighted">welcome to DevX</a>
+                        <div class="main-text">
+                              <h3>
+                                    Defining your future Starts with growing your skills
+                              </h3>
+                              <p>
+                                    The go to place where developers get discovered by employers. Your best developer
+                                    hub.
+                              </p>
+                        </div>
                         <div class="home-btn">
                               <a href="#" class="btn">get started now</a>
                         </div>
@@ -173,11 +183,11 @@
             <!-- about us / why TPU section starts here  -->
             <section id="about-us" class="about-us">
 
-                  <h3>here are a few numbers that we are proud of</h3>
+                  <h3>Here are a few numbers that we are proud of</h3>
                   <div class="icons-container">
 
                         <div class="icons">
-                              <img src="images/trophy.png" alt="trophy">
+                              <img src="Duotone/Trophy.png" alt="trophy">
                               <div class="info">
                                     <h3>20+</h3>
                                     <span>awards rewarded</span>
@@ -185,7 +195,7 @@
                         </div>
 
                         <div class="icons">
-                              <img src="images/user.png" alt="Teachers">
+                              <img src="Duotone/Users.png" alt="Teachers">
                               <div class="info">
                                     <h3>30+</h3>
                                     <span>Teachers</span>
@@ -193,7 +203,7 @@
                         </div>
 
                         <div class="icons">
-                              <img src="images/smile.png" alt="members">
+                              <img src="Duotone/Smiley.png" alt="members">
                               <div class="info">
                                     <h3>15000+</h3>
                                     <span>successful members</span>
@@ -201,7 +211,7 @@
                         </div>
 
                         <div class="icons">
-                              <img src="images/briefcase.png" alt="project-completed">
+                              <img src="Duotone/Briefcase.png" alt="project-completed">
                               <div class="info">
                                     <h3>519+</h3>
                                     <span>completed projects</span>
@@ -212,98 +222,95 @@
 
             <section>
                   <div class="our-story">
-                        <img src="images/new.jpg" alt="Story-image">
+
                         <div class="content1">
                               <h2>our story</h2>
                               <h3>
                                     We're tech hub for aspiring and establishing developers across <span>Africa</span>.
                               </h3>
                               <p>
-                                    We stand out by providing a community where opportunity meets preparation, and setup our members for
+                                    We stand out by providing a community where opportunity meets preparation, and setup
+                                    our members for
                                     absolute success.
                               </p>
                               <p>
                                     We also foster supportive and cllaborative growth sessions for developers to
                                     connects grow together.
                               </p>
-                              <a href="#" class="btn">read more</a>
                         </div>
+                        <img src="images/story.jpg" alt="Story-image">
                   </div>
+                  <div class="divider"></div>
 
                   <!-- What set us Apart  section starts here-->
                   <div class="set-apart">
 
                         <h2>what set us apart</h2>
-                        <div class="wrapper">
+                        <section class="icons-container">
 
-                              <div class="container">
-
-                                    <div class="box">
-                                          <div class="image">
-                                                <img src="images/Scholarship.png" alt="Scholarship">
-                                          </div>
-                                          <p class="title">1. Project-Base Learning </p>
-                                          <p class="desc">
-                                                Our communnity to provide well thought out project for our aspiring developers
-                                                to build is what makes
-                                                the mark, we ensure that our learners have access to top notch educational
-                                                content without the
+                              <div class="icons">
+                                    <img src="images/Scholarship.png" alt="Scholarship">
+                                    <div class="info">
+                                          <h3>1. Project-Base Learning</h3>
+                                          <span>
+                                                Our communnity to provide well thought out project for our aspiring
+                                                developers
+                                                to build is what makes the mark, we ensure that our learners have access
+                                                to
+                                                top notch educational content without the
                                                 financial burden.
-                                          </p>
-
-                                    </div>
-
-                                    <div class="box">
-                                          <div class="image">
-                                                <img src="images/book.png" alt="Learning-path">
-                                          </div>
-                                    <p class="title">2. Diverse Learning Paths </p>
-                                    <p class="desc">
-                                          Embrace the flexibility of learning with diverse array of curiculums. Whether
-                                          you're diving into
-                                          programming languages, mastering design tools, or exploring business
-                                          strategies, OrraLearn provides a
-                                          curated roadmap tailored to your interests and goals.
-                                    </p>
-                                    </div>
-
-                                    <div class="box">
-                                          <div class="image">
-                                                <img src="images/hand-up.png" alt="Supportive">
-                                          </div>
-                                          <p class="title">
-                                                3. Supportive Community Ecosystem 
-                                          </p>
-                                          <p class="desc">
-                                                Beyond just learning, DevX thrives on fostering a supportive and collaborative community for
-                                                developers. Connect with like-minded individuals, share your journey, and tap into the collective
-                                                Knowledge of diverse network. Our community is a space where developers connect, collaborate, and grow together.
-                                          </p>
-
-
-                                    </div>
-
-                                    <div class="box">
-                                          <div class="image">
-                                          <img src="images/personal-growth.png" alt="Growth">
-                                          </div>
-                                          <p class="title">
-                                                4. continuous Growth opportunities
-                                          </p>
-                                          <p class="desc">
-                                                DevX is not just a platform; it's springboard for your professional
-                                                growth. we provide a space
-                                                where developers can engage in continuous learning, stay updated on
-                                                industry trends, and find
-                                                opportunities to enhance their skill sets. Our commitment is to empower
-                                                you to reach new heights
-                                                in your career.
-                                          </p>
+                                          </span>
                                     </div>
                               </div>
-                        </div>
+
+                              <div class="icons">
+                                    <img src="images/book.png" alt="Learning-path">
+                                    <div class="info">
+                                          <h3>2. Diverse Learning Paths</h3>
+                                          <span>
+                                                Embrace the flexibility of learning with diverse array of curiculums.
+                                                Whether
+                                                you're diving into
+                                                programming languages, mastering design tools, or exploring business
+                                                strategies, OrraLearn provides a
+                                                curated roadmap tailored to your interests and goals.
+                                          </span>
+                                    </div>
+                              </div>
+
+                              <div class="icons">
+                                    <img src="images/hand-up.png" alt="Supportive">
+                                    <div class="info">
+                                          <h3>3. Supportive Community Ecosystem</h3>
+                                          <span>
+                                                Beyond just learning, DevX thrives on fostering a supportive and
+                                                collaborative community for
+                                                developers. Connect with like-minded individuals, share your journey,
+                                                and tap into the collective
+                                                Knowledge of diverse network. Our community is a space where developers
+                                                connect, collaborate, and grow together.
+                                          </span>
+                                    </div>
+                              </div>
+
+                              <div class="icons">
+                                    <img src="images/personal-growth.png" alt="Growth">
+                                    <div class="info">
+                                          <h3>4. continuous Growth opportunities</h3>
+                                          <span>
+                                                DevX is not just a platform; it's springboard for your professional
+                                                growth. we provide a space where developers can engage in continuous
+                                                learning, stay updated on
+                                                industry trends, and find opportunities to enhance their skill sets. Our
+                                                commitment is to empower you to reach new heights
+                                                in your career.
+                                          </span>
+                                    </div>
+                              </div>
+                        </section>
 
                   </div>
+
                   <!-- What set us Apart  section ends here-->
 
             </section>
@@ -312,10 +319,9 @@
             <!-- Our community section starts here -->
             <section id="community" class="community">
                   <div class="our-story">
-                        <img src="images/com-img-.png" alt="Story-image">
+
                         <div class="content1">
-                              <h2>join our thriving</h2>
-                              <h2>developer community</h2>
+                              <p>join our thriving developer community</p>
                               <ul>
                                     <li>
                                           <strong>Shared Knowledge:</strong> Benefit from collective wisdom of our
@@ -334,31 +340,33 @@
                                           meaningful connections.
                                     </li>
                               </ul>
-                              <a href="#" class="btn">read more</a>
+                        </div>
+                        <div class="images">
+                              <img src="images/grow1.jpg" class="main-img" alt="Story-image">
                         </div>
                   </div>
 
                   <div class="container">
                         <div class="our-story">
-                              <img src="images/grow1.png" alt="Story-image" class="growth-img">
+
                               <div class="content1">
-                                    <h2>Grow your career! Start learning with DevX</h2>
+                                    <h2>Grow your career! Start learning with DevX.</h2>
                                     <p>
                                           Elevate your tech career with tailored learning resources. Access curated
-                                          courses and stay ahead with
-                                          industry trends.
-                                          Begin your journey to success today.
+                                          courses and stay ahead with industry trends.
                                     </p>
-                                    <a href="#" class="btn">our courses</a>
+                                    <a href="#programs" class="btn">our courses</a>
                               </div>
+                              <img src="images/Group 39531.png" alt="Story-image" class="growth-img">
                         </div>
                   </div>
 
                   <!-- our mentors section starts here  -->
                   <div class="mentors">
-                        <h1 class="heading">our <span>mentors</span></h1>
+                        <h1 class="heading">meet our mentors</h1>
                         <p class="mentor-desc">
-                              In DevX, instructors from all over the world instruct millions of students. We offer Knowledge and abilities.
+                              In DevX, instructors from all over the world instruct millions of students. We offer
+                              knowledge and abilities.
                         </p>
 
                         <div class="mentors-container">
@@ -453,7 +461,7 @@
                         </form>
 
                         <div class="image">
-                              <img src="images/contact.png" alt="contact-img">
+                              <img src="images/App-amico.png" alt="contact-img">
                         </div>
                   </div>
             </section>
@@ -603,10 +611,11 @@
 
                   <div class="bottom">
 
-                        <div class="credit">created by <span>iametor</span> all right resrved</div>
+                        <div class="credit">&copy; 2024 Orralearn. All right resrved</div>
+                        <div class="credit">Created by <span>iametor</span></div>
 
                         <div class="social-links">
-                              <div class="follow">follows us</div>
+                              <!-- <div class="follow">follows us</div> -->
                               <a href="#"><i class="fab fa-facebook"></i></a>
                               <a href="#"><i class="fab fa-instagram"></i></a>
                               <a href="#"><i class="fab fa-twitter"></i></a>
