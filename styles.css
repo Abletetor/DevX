@@ -144,17 +144,19 @@ section {
 
 .main-text h3 {
       font-size: 60px;
+      font-family: "PT Sans", sans-serif;
       font-weight: 800;
-      line-height: 5.6rem;
+      line-height: 60px;
       margin: 2rem;
       text-transform: none;
 }
 
 .main-text p {
       font-size: 20px;
-      margin-bottom: 50px;
+      font-family: "PT Sans", sans-serif;
       max-width: 600px;
-      margin: auto;
+      margin: 0 auto;
+      margin-bottom: 20px;
       text-transform: none;
 }
 
@@ -182,100 +184,6 @@ section {
 
 /* home section styles ends here  */
 
-/* our programs styles start here  */
-
-.programs .program-container {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      gap: 2rem;
-      padding: 1rem 0 3rem 0;
-}
-
-.programs .program-container .box {
-      flex: 1 1 23rem;
-      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-      border-radius: .5rem;
-      position: relative;
-      padding: 2rem 2rem;
-      border: .1rem solid rgba(0, 0, 0, .1);
-}
-
-.programs .program-container .box .image {
-      position: relative;
-      text-align: center;
-      padding-top: 2rem;
-      overflow: hidden;
-}
-
-.programs .program-container .image img {
-      height: 10rem;
-}
-
-.programs .program-container .image img:hover {
-      transform: scale(1.1);
-}
-
-.programs .program-container .box h3 {
-      text-align: center;
-      color: #60269E;
-      font-size: 1.7rem;
-
-}
-
-.programs .program-container .box p {
-      text-align: center;
-      color: #666;
-      font-size: 1.4rem;
-      padding: 1rem 0;
-      text-transform: none;
-}
-
-.programs .program-container .box .stars {
-      color: #ff9677;
-      font-size: 1.7rem;
-      text-align: center;
-}
-
-.programs .program-container .box .price {
-      font-size: 2rem;
-      color: var(--violet);
-      font-weight: bolder;
-      padding: 2rem 0;
-      text-align: center;
-}
-
-.programs .program-container .box .price span {
-      font-size: 1.5rem;
-      color: #666;
-      font-weight: lighter;
-      padding-top: 1rem;
-      text-decoration: line-through;
-}
-
-.programs .program-container .box .submit {
-      text-align: center;
-}
-
-.programs .program-container .box .submit button {
-      color: #fff;
-      background-color: #3e187a;
-      background-image: linear-gradient(316deg, #3e187a 0%, #994ecc 74%);
-      padding: 10px 20px;
-      border-radius: 5px;
-      cursor: pointer;
-      font-size: 1.6rem;
-      width: 100%;
-}
-
-.programs .program-container .box .submit button:hover {
-      background-color: #ff9677;
-      background-image: none;
-      color: #fff;
-}
-
-/* our programs styles ends here  */
-
 /* about us styles start here */
 
 .about-us {
@@ -290,46 +198,35 @@ section {
       text-transform: none;
 }
 
-.about-us .icons-container {
+.about-us .stats-container {
       display: flex;
-      flex-wrap: wrap;
-      gap: 2rem;
       justify-content: center;
-      padding: 2rem 0;
-      text-align: center;
-      background: none;
 }
 
-.about-us .icons-container .icons {
+.about-us .stats-container .stat {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      flex: 1 1 20rem;
-      padding: 1.5rem;
-      background: none;
-      border: none;
+      padding: 20px;
 }
 
-.about-us .icons-container .icons img {
-      width: 30px;
-      height: 30px;
-      margin-right: 1rem;
+.about-us .stats-container .stat {
+      height: 7rem;
 }
 
-.about-us .icons-container .icons h3 {
-      color: #41436a;
-      padding-bottom: .5rem;
-      font-size: 1.6rem;
-      text-align: left;
+.about-us .stats-container .stat .info {
+      margin: 0 15px;
 }
 
-.about-us .icons-container .icons span {
-      color: var(--violet);
-      font-size: 1.2rem;
+.info .number,
+.info .label {
+      font-weight: 900;
+      font-size: 12px;
+}
+
+.info .label {
+      color: #60269E;
       text-transform: uppercase;
-      text-align: left;
-      font-weight: bold;
 }
+
 
 .our-story {
       display: flex;
@@ -346,7 +243,8 @@ section {
       margin-left: 1rem;
 }
 
-.our-story .content1, .community .our-story .content1 {
+.our-story .content1,
+.community .our-story .content1 {
       flex: 1 1 20rem;
       justify-content: center;
       align-items: center;
@@ -390,7 +288,7 @@ section {
 /* about us styles ends here */
 
 /* what set us apart styles start here  */
- .set-apart h2 {
+.set-apart h2 {
       text-align: center;
       font-size: 3rem;
       color: #000;
@@ -445,6 +343,7 @@ section {
 .community .content1 ul {
       padding-top: 1rem;
 }
+
 .community .content1 ul li {
       font-size: 1.6rem;
       color: #8b8585;
@@ -472,9 +371,10 @@ section {
 
 
 .community .container {
-      background: linear-gradient(109.6deg, #9d4bc7 11.2%, #7751cc 83.1%);
-      border-radius: 3rem;
-      margin: auto;
+      background: linear-gradient(109.6deg, #60269E 11.2%, #7A3DC5 83.1%);
+      border-radius: 30px;
+      width: 100%;
+      margin-top: 7rem;
 }
 
 .community .container .content1 h2 {
@@ -499,7 +399,7 @@ section {
 
 .community .container .content1 .btn {
       background: inherit;
-      border: .4rem solid #fff;
+      border: 2px solid #fff;
 }
 
 .community .container .content1 .btn:hover {
@@ -513,6 +413,7 @@ section {
       height: 20rem;
       margin: auto;
 }
+
 .community .mentors {
       margin: 8rem 0;
 }
@@ -527,14 +428,15 @@ section {
 
 .community .mentors .mentor-desc {
       text-align: center;
-      font-size: 18px;
+      font-size: 1.7rem;
       text-transform: none;
+      max-width: 500px;
+      margin: 0 auto;
+      margin-bottom: 20px;
       color: #555555;
-      margin: auto;
 }
 
-.community .mentors-container,
-.set-apart .wrapper .container {
+.community .mentors-container {
       display: flex;
       flex-wrap: wrap;
       align-items: center;
@@ -551,7 +453,7 @@ section {
       border: .1rem solid rgba(0, 0, 0, .1);
 }
 
-.community .mentors-container .box .image{
+.community .mentors-container .box .image {
       position: relative;
       text-align: center;
       padding-top: 1rem;
@@ -608,106 +510,9 @@ section {
 /* community styles ends here  */
 
 
-/* contact us styles starts here  */
-.contact .row {
-      display: flex;
-      flex-wrap: wrap-reverse;
-      gap: 1.5rem;
-      align-items: center;
-}
-
-.contact .row form {
-      flex: 1 1 40rem;
-      padding: 2rem 2.5rem;
-      box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
-      border: .1rem solid rgba(0, 0, 0, .1);
-      background-color: #fff;
-      border-radius: .5rem;
-}
-
-.contact .row .image {
-      flex: 1 1 40rem;
-}
-
-.contact .row .image img {
-      width: 100%;
-}
-
-.contact .row form .box {
-      padding: 1rem;
-      font-size: 1.7rem;
-      color: #41436a;
-      text-transform: none;
-      border: .1rem solid rgba(0, 0, 0, .1);
-      border-radius: .5rem;
-      margin: .7rem 0;
-      width: 100%;
-}
-
-.contact .row form .box:focus {
-      border-color: #60269E;
-}
-
-.contact .row form textarea {
-      height: 15rem;
-      resize: none;
-}
-
-.contact input[type="submit"]:hover {
-      background-color: #ff9677;
-}
-
-/* contact us styles ends here  */
-
-/* FAQs styles starts here  */
-.faq {
-      background: #F7F0FF;
-}
-
-.faq .heading {
-      background: none;
-      font-size: 2.5rem;
-}
-
-.faq-container {
-      max-width: 100%;
-      margin: 50px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-}
-
-details {
-      margin-bottom: 20px;
-      border-bottom: 1px solid #ccc;
-}
-
-.faq-question {
-      font-weight: bold;
-      font-size: 17px;
-      color: #000;
-      margin-bottom: 10px;
-      cursor: pointer;
-}
-
-.faq-answer {
-      color: #666;
-      font-size: 16px;
-      display: none;
-      text-transform: none;
-}
-
-details[open] .faq-answer {
-      display: block;
-}
-
-
 /* footer styles starts here  */
 .footer {
-      background-color: #041522;
+      background-color: #101828;
 }
 
 .footer .box-container {
@@ -733,6 +538,7 @@ details[open] .faq-answer {
       margin: 2rem 10rem 0 0;
       font-size: 1.3rem;
       text-transform: none;
+      width: 100%;
 }
 
 .footer .box-container .box span {
@@ -847,8 +653,9 @@ details[open] .faq-answer {
             color: #fff;
       }
 
-      .home .content h3 {
-            font-size: 4rem;
+      .main-text h3 {
+            font-size: 5rem;
+            line-height: 4.9rem;
       }
 
       .home .content span {
@@ -860,13 +667,27 @@ details[open] .faq-answer {
             padding: .5rem;
       }
 
-      .icons-container .icons h3 {
-            font-size: 2rem;
+      .about-us .stats-container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            /* padding: 2rem 0 0 0; */
       }
 
-      .icons-container .icons span {
-            font-size: 1.5rem;
+      .about-us .stats-container .stat {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex: 1 1 20rem;
+            padding: 2rem;
       }
+
+      .about-us .stats-container .stat img {
+            height: 5rem;
+      }
+
 
       .community .container .content1 h2 {
             margin-top: 2rem;
@@ -892,4 +713,7 @@ details[open] .faq-answer {
       .heading {
             font-size: 3rem;
       }
+
 }
+
+
